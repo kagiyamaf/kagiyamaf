@@ -1,3 +1,23 @@
-img:hover{
-	opacity : 0.5;
+html, body {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+}
+
+.frank {
+	display: block;
+	width: 50%;
+	height: 100%;
+	background: url('frank.jpg') no-repeat center center/cover;
+}
+
+.frank:hover {
+	opacity: 0.5;
+}
+
+.ingredients {
+	max-width: 1200px;
+	margin: 0 auto;
 }
