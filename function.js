@@ -4,6 +4,6 @@ $(".people . toggle").click(function() {
 	var $this = $(this); /* adding $ what is this? */
 	
 	$this.parents("li").toggleClass("expanded");
-	$this.parents(" .people").toggleClass("solo");
+	$this.parents(".people").toggleClass("solo");
 
 });
