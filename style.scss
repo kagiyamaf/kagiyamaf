@@ -1,0 +1,112 @@
+html,
+body,
+.people {
+	height: 100%;
+}
+
+html {
+	font-size: 20px;
+}
+
+body {
+	background:   #000;
+	color:        #fff;
+	line-height:   2;
+	font-family:   Roboto, sans-serif;
+	font-size:     1 rem; /* rem means to root em, ask Neil */
+	font-weight:  500; /* normal = 400, medium = 500 */
+}
+
+a { 
+	color:   inherit; /* inherit means */
+}
+
+.people {
+	margin:       0;
+	padding:      0;
+	list-style:   none;
+	
+	> li { /* li class */
+		float:       left;
+		width:       50%;
+		height:      100%;
+		margin:      0;
+		padding:     0;
+		overflow:    hidden; /* no scrollable */
+		transition:  width 0.25s; /* seconds for it to take from one action to the next */
+	}
+	
+	&.solo {
+		>li {
+		   
+		   width:  0;
+			
+			a {
+				opacity: 0;
+			}
+			
+			&.expanded {
+				width: 100%;
+				
+					a {
+					   opacity: 1;
+					}
+				}
+			}
+		}
+		
+		h2 {   // in the middle so h2 not h1, not a title
+			width:      100%;
+			height:     100%;
+			margin:     0;
+			padding:    0;
+			font-size:  4 rem;
+		
+			a {
+				z-index:       1;
+				display:       block;
+				position:      relative;
+				width:         100%;
+				height:        100%;
+				font-weight:   100%;
+				white-space:   nowrap;
+				text-shadow:   rgba (0, 0, 0, 0.5) 0 0 8px;
+				transition:    opacity 0.25s;
+				
+				> span {
+					display:      block;
+					position:     absolute;
+					top:          50%;
+					width:        100%;
+					height:       8 rem;
+					margin:       -4 rem 0 0 0;
+					text-align:   center;
+				}
+				
+				&::before {
+					z-index:      -1;
+					display:      block;
+					position:     absolute;
+					width:        100%;
+					height:       100%;
+					background:   transparent no-repeat center center/cover;
+					content:      " ";
+					transition:   opacity 0.25s;
+				}
+				
+				&:hover {
+					&::before {
+						opacity: 0.5;
+					}
+				}
+			} 
+		}
+	
+	.frank a::before {
+		background-image: ("frank.jpg");
+	}
+	
+	.jr a::before {
+		background-image: ("frank.jpg");
+	}		
+}
