@@ -103,10 +103,10 @@ a {
 		}
 	
 	.frank a::before {
-		background-image: ("frank.jpg");
+		background-image: url("frank.jpg");
 	}
 	
 	.jr a::before {
-		background-image: ("frank.jpg");
+		background-image: url("frank.jpg");
 	}		
 }
