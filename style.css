@@ -1,0 +1,86 @@
+html,
+body,
+.people {
+  height: 100%; }
+
+html {
+  font-size: 20px; }
+
+body {
+  background: #000;
+  color: #fff;
+  line-height: 2;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  /* rem means to root em, ask Neil */
+  font-weight: 500;
+  /* normal = 400, medium = 500 */ }
+
+a {
+  color: inherit;
+  /* inherit means */ }
+
+.people {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .people > li {
+    /* li class */
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* no scrollable */
+    transition: width 0.25s;
+    /* seconds for it to take from one action to the next */ }
+  .people.solo > li {
+    width: 0; }
+    .people.solo > li a {
+      opacity: 0; }
+    .people.solo > li.expanded {
+      width: 100%; }
+      .people.solo > li.expanded a {
+        opacity: 1; }
+  .people h2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 4 rem; }
+    .people h2 a {
+      z-index: 1;
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      font-weight: 100%;
+      white-space: nowrap;
+      text-shadow: rgba 0, 0, 0, 0.5 0 0 8px;
+      transition: opacity 0.25s; }
+      .people h2 a > span {
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 8 rem;
+        margin: -4 rem 0 0 0;
+        text-align: center; }
+      .people h2 a::before {
+        z-index: -1;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent no-repeat center center/cover;
+        content: " ";
+        transition: opacity 0.25s; }
+      .people h2 a:hover::before {
+        opacity: 0.5; }
+  .people .frank a::before {
+    background-image: url("//2.bp.blogspot.com/-68xBXkwW0-A/VJsDGD9JOkI/AAAAAAAAApw/tCc1V61w5Xs/s1600/Cover.jpg"); }
+  .people .jr a::before {
+    background-image: url("//i.ytimg.com/vi/rabKWwEkZqc/hqdefault.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

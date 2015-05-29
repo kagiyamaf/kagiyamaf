@@ -5,15 +5,15 @@ body,
 }
 
 html {
-	font-size: 20px;
+	font-size: 20px; //html is the outermost tag, the root of a tree
 }
 
-body {
+body { // a lot of branches
 	background:   #000;
 	color:        #fff;
 	line-height:   2;
 	font-family:   Roboto, sans-serif;
-	font-size:     1 rem; /* rem means to root em, ask Neil */
+	font-size:     1rem; /* rem means to root em, ask Neil */
 	font-weight:  500; /* normal = 400, medium = 500 */
 }
 
@@ -110,3 +110,6 @@ a {
 		background-image: url("//i.ytimg.com/vi/rabKWwEkZqc/hqdefault.jpg");
 	}		
 }
+
+
+// use transitions, links -> get the class solo.
