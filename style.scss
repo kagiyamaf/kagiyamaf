@@ -36,8 +36,8 @@ a {
 		transition:  width 0.25s; /* seconds for it to take from one action to the next */
 	}
 	
-	&.solo {
-		>li {
+	&.solo { // &=people, parent selector
+		>li { // the list item directly beneath, any other li s don't get affected, if you want a list inside the list
 		   
 		   width:  0;
 			
