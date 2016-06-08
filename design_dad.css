@@ -25,7 +25,6 @@ section{
 }
 
 .letter p{
-    width:          37%;
     word-wrap:      break-word;
     font-size:      2.5em;
 }
@@ -36,7 +35,6 @@ section{
 
 .slides{
     display:        none;
-    position:       relative;
     width:          50%;
     height:         50%;
     padding:        10px;
