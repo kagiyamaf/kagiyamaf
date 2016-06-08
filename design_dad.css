@@ -30,6 +30,10 @@ section{
     font-size:2.5em;
 }
 
+.slideshow{
+    padding-top:    30px;
+}
+
 .slides{
     display:        none;
     float:          left;
@@ -39,7 +43,7 @@ section{
     padding:        10px;
     border:         15px solid black;
     border-radius:  30px;
-    opacity:        0.8;
+    opacity:        0.7;
 }
 
 .slides:hover{
