@@ -17,5 +17,5 @@ function slide_anim()
     }
     
     x[index-1].style.display = "block";
-    setTimeout(slide_anim, 2000);
+    setTimeout(slide_anim, 4000);
 }
