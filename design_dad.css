@@ -1,35 +1,33 @@
 body{
     /*background-color:#578796; */
-    background:radial-gradient(lightblue, gray);
-    background:gray;
+    background:     radial-gradient(lightblue, gray);
+    background:     gray;
     
 }
 
 @font-face{
-    font-family:cursive;
+    font-family:    cursive;
     src:url("https://www.google.com/fonts/specimen/Cedarville+Cursive")
 }
 
 header{
-    background:black;
-    opacity:0.8;
-    text-align:center;
-    font-size:30px;
-    color:white;
-    font-family:cursive;
+    background:     black;
+    opacity:        0.8;
+    text-align:     center;
+    font-size:      30px;
+    color:          white;
+    font-family:    cursive;
 }
 
 section{
-    display:block;
+    display:        block;
 }
 
 .letter p{
-    position:relative;
-    left:-100px;
-    width:37%;
-    float:right;
-    word-wrap:break-word;
-    font-size:2.5em;
+    width:          37%;
+    float:          right;
+    word-wrap:      break-word;
+    font-size:      2.5em;
 }
 
 .slideshow{
