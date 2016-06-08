@@ -24,7 +24,9 @@ section{
 }
 
 .letter p{
-    width:40%;
+    position:relative;
+    left:-100px;
+    width:37%;
     float:right;
     word-wrap:break-word;
     font-size:2.5em;
