@@ -81,3 +81,17 @@ a:hover {
   float:            right;
   padding-top:      5px;
 }
+
+@media only screen and (min-width: 1000px){
+  .slideshow {
+    height:80%;
+    weight:80%;
+  }
+}
+
+@media only screen and (min-width: 2000px){
+  .slideshow {
+    height:100%;
+    weight:100%;
+  }
+}
