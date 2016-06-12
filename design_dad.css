@@ -1,7 +1,7 @@
 body {
   /*background-color:#578796; */
   text-align:       center;
-  background-image:"computer.png";
+  background:"computer.png";
 }
 
 @font-face {
