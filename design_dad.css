@@ -23,7 +23,7 @@ header{
   transform:        rotate(-5deg);
   position:         relative;
   top:              20px;
-  font-size:        100px;
+  font-size:        3em;
 }
 
 section {
