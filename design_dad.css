@@ -10,7 +10,7 @@ body {
 }
 
 header{
-  color: #CCCCCC;
+  color:            #CCCCCC;
   text-shadow:      0 1px 0 #999999,
                     0 2px 0 #888888, 
                     0 3px 0 #777777, 
@@ -24,6 +24,7 @@ header{
   position:         relative;
   top:              20px;
   font-size:        3em;
+  padding-bottom:   10px;
 }
 
 section {
