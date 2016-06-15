@@ -95,13 +95,12 @@ a:hover {
 @media only screen and (min-width: 1000px){
   .slideshow {
     height:1000px;
-    weight:80%;
   }
 }
 
 @media only screen and (min-width: 2000px){
   .slideshow {
     height:2500px;
-    weight:100%;
+    width:80%;
   }
 }
