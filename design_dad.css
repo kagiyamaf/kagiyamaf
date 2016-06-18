@@ -1,6 +1,7 @@
 body {
   /*background-color:#578796; */
   text-align:       center;
+  background:       radial-gradient(lightblue,gray);
 }
 
 @font-face {
